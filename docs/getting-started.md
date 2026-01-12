@@ -28,9 +28,7 @@
 
 ## Links & Bilder
 
-[Link Text](./page.md)
 [Externer Link](https://example.com)
-![Alt Text](./image.png)
 
 ## Code
 
