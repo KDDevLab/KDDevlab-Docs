@@ -21,7 +21,8 @@ export default defineUserConfig({
     navbar: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'GitHub', link: 'https://github.com/KDDevlab' }
+      { text: 'GitHub', link: 'https://github.com/KDDevlab' },
+      { text: 'Getting Started', link: 'https://kddevlab.github.io/KDDevlab-Docs/getting-started.html' }
     ],
     
     // Sidebar Navigation
