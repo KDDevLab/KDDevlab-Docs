@@ -1,0 +1,22 @@
+{
+  "name": "kddevlab-docs",
+  "version": "1.0.0",
+  "description": "Zentrale Dokumentation für KDDevlab Projekte",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KDDevLab/KDDevlab-Docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.26",
+    "@vuepress/theme-default": "^2.0.0-rc.26",
+    "sass-embedded": "^1.83.2",
+    "vuepress": "^2.0.0-rc.26"
+  }
+}
