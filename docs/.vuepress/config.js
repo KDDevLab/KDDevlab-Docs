@@ -1,6 +1,9 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
+import { getDirname, path } from 'vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   // Bundler (Vite = schnell und modern)
@@ -14,15 +17,15 @@ export default defineUserConfig({
   // KRITISCH für GitHub Pages!
   // Muss EXAKT dein Repo-Name sein
   base: '/KDDevlab-Docs/',
+
+  // Client Config für globale Komponenten
+  clientConfigFile: path.resolve(__dirname, './client.js'),
   
   // Theme und Design
   theme: defaultTheme({
     // Navigation oben
     navbar: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'GitHub', link: 'https://github.com/KDDevlab' },
-      { text: 'Getting Started', link: 'https://kddevlab.github.io/KDDevlab-Docs/getting-started.html' }
+      { text: 'Home', link: '/' }
     ],
     
     // Sidebar Navigation

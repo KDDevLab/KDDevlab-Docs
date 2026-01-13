@@ -2,28 +2,21 @@
 home: true
 title: Home
 heroText: KDDevlab Documentation
-tagline: Zentrale Wissensdatenbank für alle Projekte
+tagline: Zentrale Wissensdatenbank für alle Projekte, gesammelte Erfahrungen und Anleitungen zum Nachschlagen
+
 actions:
   - text: Los geht's →
-    link: /guide/
+    link: /getting-started.html
     type: primary
-  - text: GitHub
-    link: https://github.com/KDDevlab
-    type: secondary
-features:
-  - title: 📝 Einfach
-    details: Markdown-basierte Dokumentation, einfach zu schreiben und zu pflegen
-  - title: 🔍 Durchsuchbar
-    details: Integrierte Volltextsuche über alle Dokumente
-  - title: 📚 Versioniert
-    details: Vollständige Git-History für jede Änderung
 ---
 
 ## Willkommen bei KDDevlab
 
 Das ist die zentrale Dokumentation für alle unsere Projekte.
 
-Nutze die Navigation oben, um loszulegen!
-```
-
-**Speichern!**
+<ProjectFeatures :features="[
+  { title: '📝 Projekt 1', details: 'Beschreibung von Projekt 1', link: ' /KDDevlab-Docs/getting-started.html' },
+  { title: '📝 Projekt 2', details: 'Beschreibung von Projekt 2', link: ' /KDDevlab-Docs/getting-started.html' },
+  { title: '📝 Projekt 3', details: 'Beschreibung von Projekt 3', link: ' /KDDevlab-Docs/getting-started.html' },
+  { title: '📝 Projekt 4', details: 'Beschreibung von Projekt 4', link: ' /KDDevlab-Docs/getting-started.html' }
+]" />
