@@ -13,8 +13,8 @@ actions:
 ## Willkommen bei KDDevlab
 
 Das ist die zentrale Dokumentation für alle Projekte.
-Wichtig ist auch, dass diese Dokumentation mit Hilfe von KIs chatbots erstellt wurde, da die eine Einheitliche Übersicht zuerlangen.
-In erster lienie ist diese Dokumentation als nachschlage werkt gedacht!
+Wichtig ist auch, dass diese Dokumentation mit Hilfe von KI-Chatbots erstellt wurde, um eine einheitliche Übersicht zu erlangen.
+In erster Linie ist diese Dokumentation als Nachschlagewerk gedacht!
 
 <ProjectFeatures :features="[
   { title: '📝 Server Setup', details: 'Deployen von Projekten bis hinzu Sicherheit!', link: ' /KDDevlab-Docs/getting-started.html' },
