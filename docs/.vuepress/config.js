@@ -26,16 +26,7 @@ export default defineUserConfig({
     // Navigation oben
     navbar: [
       { text: 'Home', link: '/' }
-    ],
-    
-    // Sidebar Navigation
-    sidebar: [
-      {
-        text: 'Einführung',
-        children: ['/']
-      }
-    ],
-    
+    ],    
     // GitHub Integration
     repo: 'KDDevlab/KDDevlab-Docs',
     editLink: true,

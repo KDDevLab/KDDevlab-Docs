@@ -17,8 +17,6 @@ Wichtig ist auch, dass diese Dokumentation mit Hilfe von KI-Chatbots erstellt wu
 In erster Linie ist diese Dokumentation als Nachschlagewerk gedacht!
 
 <ProjectFeatures :features="[
-  { title: '📝 Server Setup', details: 'Deployen von Projekten bis hinzu Sicherheit!', link: ' /KDDevlab-Docs/getting-started.html' },
-  { title: '📝 Projekt 2', details: 'Beschreibung von Projekt 2', link: ' /KDDevlab-Docs/getting-started.html' },
-  { title: '📝 Projekt 3', details: 'Beschreibung von Projekt 3', link: ' /KDDevlab-Docs/getting-started.html' },
-  { title: '📝 Projekt 4', details: 'Beschreibung von Projekt 4', link: ' /KDDevlab-Docs/getting-started.html' }
+  { title: '📝 Server Setup', details: 'Deployen von Projekten bis hinzu Sicherheit!', link: '/KDDevlab-Docs/server_setup.html' },
+  { title: '📝 Portfolio', details: 'Beschreibung von Portfolio', link: ' /KDDevlab-Docs/getting-started.html' }, 
 ]" />
